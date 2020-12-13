@@ -62,6 +62,67 @@ p {
 }
 /* hero styles end */
 
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+.benefit-title {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-title h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-title img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.article-title {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.article-title img {
+    max-height: 200px;
+}
+
+.article-title h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
 /* apply styles to <footer> */
 footer {
     padding: 30px;
